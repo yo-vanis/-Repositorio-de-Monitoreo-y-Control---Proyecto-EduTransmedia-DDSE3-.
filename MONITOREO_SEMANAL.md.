@@ -14,14 +14,20 @@
 ---
 ## 🎯 2. Avances del Sprint / Semana Actual
 ### 2.1 Entregables Cumplidos
-- [ ] [Rol - Responsable]: [Escribe la tarea que terminaron, ej: Creación del repositorio]
-- [ ] [Rol - Responsable]: [Otra tarea]
+- [x] [Líder - Yovanis Estrada Benavidez]: Creación del repositorio en GitHub.
+- [x] [Desarrollador - Pedro]: Creación del documento de Avance MODESEC (Fase II).
 
 ### 2.2 Evidencia de Ingeniería de Prompts (ROCAS + MOCAVI / MODESEC)
-* **Prompt Utilizado:** [Copiar aquí el prompt exacto]
-* **Herramienta IA:** [ChatGPT / Claude / Gemini]
-* **Resultado Obtenido:** [Enlace o resumen breve del resultado]
----
+* **Prompt Utilizado:** 
+[ROL] Actúa como un arquitecto senior de software educativo y diseñador instruccional experto en MODESEC.
+[OBJETIVO] Diseñar la Fase II (Diseño Multimedial) de nuestro software educativo respetando la guía DDS3-01.pdf.
+[CONTEXTO] Desarrollamos una aplicación educativa llamada "EduTransmedia" basada en MODESEC y MOCAVI para estudiantes de educación básica y media.
+[ACCIÓN] 1. Diseñar el Diagrama de Contenidos. 2. Definir la Ventana Estándar. 3. Elaborar la Ficha de Descripción (7 categorías). 4. Proponer la Guía de Metáforas.
+[SALIDA] Documento Markdown estructurado.
+
+* **Herramienta IA:** Gemini
+* **Resultado Obtenido:** Se generó exitosamente la estructura de la Fase II de MODESEC, definiendo 3 módulos principales, la maqueta de la ventana estándar y la metáfora de "Estudio de Producción Colaborativo".
+
 ## ⚠️ 3. Cuellos de Botella y Apoyo Requerido
 * **Riesgos/Bloqueos:** [Descripción técnica o pedagógica de bloqueos]
 * **Ayuda del Docente:** [Dudas conceptuales para la clase presencial]
