@@ -17,7 +17,52 @@
 - [x] [Líder - Yovanis Estrada Benavidez]: Creación del repositorio en GitHub.
 - [x] [Desarrollador - Pedro]: Creación del documento de Avance MODESEC (Fase II).
 
+### 📊 Reporte de Contribuciones Individuales por Integrante
+
+**Tabla Resumen de Responsabilidades y Entregables**
+
+| Integrante | Rol | Principales Aportes Técnicos y Documentales | Estado |
+| --- | --- | --- | --- |
+| **Yovanis Estrada Benavidez** | Líder / Scrum Master | Gestión del repositorio en GitHub, control de la bitácora del Sprint y diseño de prompts (ROCAS/MODESEC) en Gemini. | **Completado** |
+| **Pedro Lopez Esquivia** | Dev Backend | Redacción del documento MODESEC (Fase II), configuración del servidor Node.js/Express, base de datos SQLite y rutas API RESTful. | **Completado** |
+| **Brandon Joel Serrano** | Diseñador UI/UX | Diseño de la Ventana Estándar, metáfora gráfica del sistema y hojas de estilo en CSS (`style.css`) para componentes y modales. | **Completado** |
+| **Elian Benítez Cogollo** | Dev Frontend | Maquetación HTML5 (`index.html`), lógica del cliente en JS (`script.js`), integración de `fetch` API y control de interfaz según el rol. | **Completado** |
+| **Andres Lara Montes** | QA / Moderador | Pruebas funcionales del flujo de moderación (Aprobación/Rechazo/Borrado), auditoría de la carpeta `uploads/` y alineación pedagógica. | **Completado** |
+
+---
+
+**Detalle Individual de Actividades Desarrolladas**
+
+* **Yovanis Estrada Benavidez (Líder / Scrum Master)**
+* **Creación y Gestión:** Inicialización de la estructura del repositorio oficial de GitHub (`-Repositorio-de-Monitoreo-y-Control---Proyecto-EduTransmedia-DDSE3-.`) y arquitectura del proyecto.
+* **Ingeniería de Prompts:** Formulación de prompts bajo el marco ROCAS + MOCAVI / MODESEC para estructurar la Fase II del proyecto.
+* **Coordinación:** Control de tiempos del equipo, seguimiento de minutas y actualización del tablero de tareas.
+
+
+* **Pedro Lopez Esquivia (Desarrollador Backend)**
+* **Documentación Técnica:** Creación del documento de Avance MODESEC (Fase II).
+* **Infraestructura Server-Side:** Configuración del servidor en Node.js con Express (`server.js`) y persisitenica de datos en SQLite (`database.js`).
+* **API RESTful y Seguridad:** Implementación de endpoints de subida (`POST /subir`), consulta pública/privada (`GET /recursos`, `GET /moderacion`), cambio de estados (`PUT /moderacion/:id`) y eliminación física de archivos (`DELETE /recursos/:id`).
+* **Middleware:** Creación del validador de PIN de profesor (`x-pin-profesor`) y gestión de almacenamiento en disco local con `multer` y `fs`.
+
+
+* **Brandon Joel Serrano (Diseñador UI/UX)**
+* **Diseño de Experiencia:** Definición de la metáfora gráfica ("Estudio de Producción Colaborativo") y maquetación visual de la Ventana Estándar.
+* **Estilos y Componentes:** Creación de `style.css`, aplicando estilos para la grilla de tarjetas multimedia, contenedor de moderación, identificadores de rol (*badges*) y ventana modal para el envío de recursos.
+
+
+* **Elian Benítez Cogollo (Desarrollador Frontend)**
+* **Estructura Web:** Implementación de la maquetación semántica en `index.html`.
+* **Lógica del Cliente:** Desarrollo de la interactividad en `script.js` para alternar entre roles (Estudiante / Profesor), consumo de endpoints asíncronos mediante `fetch` API y renderizado dinámico de contenidos.
+* **Manejo de Formularios:** Captura de datos multimedia en cliente y envío en formato `FormData`.
+
+
+* **Andres Lara Montes (Moderador QA / Docente)**
+* **Aseguramiento de Calidad (QA):** Pruebas de integración del flujo transmedia completo (Subida $\rightarrow$ Evaluación de Profesor con PIN $\rightarrow$ Publicación / Eliminación).
+* **Validación de Archivos:** Verificación del borrado en cascada (registro de base de datos + archivo físico en `/uploads`).
+* **Control Pedagógico:** Auditoría de alineación entre la interfaz desarrollada y los lineamientos de la guía DDS3-01.pdf.
 ### 2.2 Evidencia de Ingeniería de Prompts (ROCAS + MOCAVI / MODESEC)
+
 * **Prompt Utilizado:** 
 [ROL] Actúa como un arquitecto senior de software educativo y diseñador instruccional experto en MODESEC.
 [OBJETIVO] Diseñar la Fase II (Diseño Multimedial) de nuestro software educativo respetando la guía DDS3-01.pdf.
@@ -25,9 +70,38 @@
 [ACCIÓN] 1. Diseñar el Diagrama de Contenidos. 2. Definir la Ventana Estándar. 3. Elaborar la Ficha de Descripción (7 categorías). 4. Proponer la Guía de Metáforas.
 [SALIDA] Documento Markdown estructurado.
 
+* **Prompt Utilizado:**
+> **[ROL]** Actúa como un arquitecto senior de software educativo y diseñador instruccional experto en la metodología MODESEC.
+> **[OBJETIVO]** Diseñar la Fase II (Diseño Multimedial) y la estructura técnica inicial del software educativo "EduTransmedia", respetando los lineamientos del documento guía DDS3-01.pdf.
+> **[CONTEXTO]** Desarrollamos un repositorio transmedia full-stack (Node.js, Express, SQLite, Vanilla JS) para la gestión, entrega y moderación de contenido multimedia académico (audios/videos) entre estudiantes y docentes.
+> **[ACCIÓN]**
+> 1. Diseñar el Diagrama de Contenidos estructurado por módulos.
+> 2. Definir la arquitectura de la Ventana Estándar y su interfaz responsiva.
+> 3. Elaborar la Ficha de Descripción del sistema según las 7 categorías de MODESEC.
+> 4. Proponer la Guía de Metáforas (Estudio de Producción Colaborativo) y la lógica de control de acceso por roles (Profesor / Estudiante via PIN de seguridad).
+> 5. Estructurar la API REST y las consultas SQL correspondientes para el manejo de estados (`pendiente`, `aprobado`, `rechazado`).
+> 
+> 
+> **[SALIDA]** Documento estructurado en Markdown listo para integrarse a la documentación del proyecto.
+
+
+* **Herramienta IA:** Gemini
+* **Resultado Obtenido:** Se generó la especificación técnica completa de la Fase II de MODESEC, incluyendo la arquitectura cliente-servidor, la estructura de la base de datos en SQLite, el sistema de almacenamiento de medios en servidor con `multer`, la ruta de eliminación segura (`DELETE`) y la lógica del middleware de seguridad por PIN para el rol docente.
+
+---
+## ⚠️ 3. Cuellos de Botella y Apoyo Requerido
+### 3.1 Riesgos / Bloqueos Identificados
+
+* **Control de Versiones del Archivo de Datos (`database.db`):** Al trabajar con SQLite en entorno local, existe el riesgo de generar conflictos de fusión (*merge conflicts*) en GitHub al subir modificaciones simultáneas de la base de datos entre el equipo de desarrollo.
+* **Límite de Almacenamiento Local:** La subida de archivos pesados de video/audio directamente a la carpeta local `/uploads` puede saturar el disco en entornos de prueba si no se establecen cuotas máximas de tamaño por recurso.
+* **Seguridad de Autenticación:** El sistema de verificación por PIN fija una validación rápida para la entrega actual, pero requiere ser escalado a sesiones basadas en tokens (JWT) para evitar la exposición de la clave en el cliente.
+
+### 3.2 Ayuda del Docente (Dudas para la clase presencial)
+
+* **Validación de Estándar MODESEC:** Revisión de la Ficha de Descripción de 7 Categorías para asegurar el cumplimiento exacto de la rúbrica DDS3-01.pdf antes del cierre formal de la Fase II.
+* **Criterio de Despliegue:** Orientación sobre si el proyecto debe mantenerse con persistencia local (SQLite + Node.js) para la evaluación final, o si se sugiere la migración del almacenamiento a un servicio en la nube (ej. Render + Cloudinary/Supabase).
+
 * **Herramienta IA:** Gemini
 * **Resultado Obtenido:** Se generó exitosamente la estructura de la Fase II de MODESEC, definiendo 3 módulos principales, la maqueta de la ventana estándar y la metáfora de "Estudio de Producción Colaborativo".
 
-## ⚠️ 3. Cuellos de Botella y Apoyo Requerido
-* **Riesgos/Bloqueos:** [Descripción técnica o pedagógica de bloqueos]
-* **Ayuda del Docente:** [Dudas conceptuales para la clase presencial]
+
