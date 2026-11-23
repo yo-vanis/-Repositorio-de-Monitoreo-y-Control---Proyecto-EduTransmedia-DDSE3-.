@@ -100,3 +100,44 @@
 
 - **Validación de Estándar MODESEC:** Revisión de la Ficha de Descripción de 7 Categorías para asegurar el cumplimiento exacto de la rúbrica DDS3-01.pdf antes del cierre formal de la Fase II.
 - **Criterio de Despliegue:** Orientación sobre si el proyecto debe mantenerse con persistencia local (SQLite + Node.js) para la evaluación final, o si se sugiere la migración del almacenamiento a un servicio en la nube (ej. Render + Cloudinary/Supabase).
+
+---
+
+## 📚 6. Referencias Bibliográficas (Estado del Arte)
+Compilación de literatura científica estructurada en tres ejes temáticos fundamentales para el sustento teórico, pedagógico y tecnológico del repositorio educativo EduTransmedia bajo las metodologías MODESEC y MOCAVI.
+
+### Eje 1: Narrativas Transmedia y Co-creación Estudiantil
+* Santín-Picoita, F. G. et al. (2024). Transmedialidad y Narrativas Transmedia en la era de la Comunicación Digital Interactiva: El Caso de los Periódicos. Revista Tecnológica-Educativa Docentes 2.0, 17(1).
+* Rodríguez-Silva, M. (2021). Narrativa transmedia y comprensión lectora: una experiencia en la educación rural colombiana. Revista Docentes 2.0, 11(1), 110-119.
+* Alonso, E. (2020). Narrativa transmedia pedagógica: etapas, contextos y dimensiones para su inclusión en el aula. Propuesta Educativa, 1(53), FLACSO.
+* Scolari, C. A., Rodríguez, N. L., & Masanet, M. J. (2019). Educación Transmedia. De los contenidos generados por los usuarios a los contenidos generados por los estudiantes. Revista Latina de Comunicación Social, (74), 116-132.
+* De la Fuente Prieto, J., Lacasa Díaz, P., & Martínez-Borda, R. (2019). Adolescentes, redes sociales y universos transmedia: la alfabetización mediática en contextos participativos. Revista Latina de Comunicación Social, (74), 172-196.
+* Arias, O., & Del Campo Saltos, G. (2024). Narrativas transmedia como herramienta innovadora para el aprendizaje interactivo en entornos educativos digitales. LATAM Revista Latinoamericana de Ciencias Sociales y Humanidades, 5(6), 2472-2487.
+* Ortiz Morales, E. F. (2018). Narrativas transmedia en el aula de clase: reconocimiento, disputa y construcción permanente. Educación y Ciudad, (35), 181-188.
+* Patiño Mazo, E. A. (2021). Transmedia storytelling y aprendizaje informal: una aproximación conceptual desde la narrativa y el consumo mediático. Revista Académica Estesis, (11), 28-37.
+* Alonso, E. (2018). Enseñar y aprender con narrativa transmedia. Análisis de experiencia en una escuela secundaria de Argentina. Comunicación y Sociedad, (33), 203-222.
+* Montoya, C. (2025). Educación y evaluación transmedia: narrativas, proyectos y abordajes en la universidad. Cuadernos del Centro de Estudios en Diseño y Comunicación, (259), 119-136.
+
+### Eje 2: Repositorios Digitales, Recursos Educativos Abiertos (REA) y Curaduría Docente
+* Astudillo Zhindon, M. E., & Panamá Criollo, G. W. (2025). Repositorio de Recursos Educativos Digitales para el Proceso de Enseñanza Aprendizaje del Movimiento Unidimensional. Revista Scientific, 10(35), 385-406.
+* Jiménez-Bernal, P. J. (2024). Recursos Educativos Digitales Dualizados desde un Diseño Instruccional: una Investigación Basada en Diseño. Revista Horizontes Pedagógicos, 26(1).
+* Solano Fernández, I. M., & Sánchez Vera, M. M. (2010). Aprendiendo en cualquier lugar: el podcast educativo. Pixel-Bit: Revista de Medios y Educación, (36), 125-139.
+* Chasi Guala, R. E. (2023). El podcast educativo como estrategia innovadora para potenciar la expresión oral. Revista Scientific, 8(29), 57-78.
+* Labanda Pineda, J. M. (2026). Recursos educativos abiertos y procesos de enseñanza-aprendizaje: un estudio exploratorio (2021-2025). SciELO Preprints.
+* Rodríguez, G. et al. (2019). Repositorio de Recursos Educativos Abiertos: Un caso práctico. CPU-e, Revista de Investigación Educativa, (28), 234-260.
+* Juárez Popoca, D., Torres Gastelú, C. A., & Herrera Díaz, L. E. (2017). Las posibilidades educativas de la curación de contenidos: una revisión de literatura. Apertura, 9(2).
+* Guallar, J., & Leiva-Aguilera, J. (2016). Curaduría de contenidos digitales: un potencial para la educación y el aprendizaje. Revista de Educación a Distancia (RED), (49).
+* Zúñiga, M. (2017). Curaduría de contenidos o recursos educativos. Revista Mexicana de Bachillerato a Distancia, (18), 34-37.
+* Ospina, D. et al. (2024). Repositorio digital para la investigación de maestros en formación. Revista de Investigación Educativa, Redalyc.
+
+### Eje 3: Diseño de Software Educativo, Metodología MODESEC y Diseño Instruccional
+* Caro, M. F., Jiménez, J. A., & Paternina, Α. Μ. (2012). MODESEC: Modelo para el desarrollo de software educativo basado en competencias. Revista Acta ScientiÆ InformaticÆ, Universidad de Córdoba.
+* Caro Piñeres, M. F. (2017). Descripción Modesec Tool. Acta ScientiÆ InformaticÆ, 1(1), Universidad de Córdoba.
+* Domínguez Pérez, C., Organista Sandoval, J., & López Ornelas, M. (2018). Diseño instruccional para el desarrollo de contenidos educativos digitales para teléfonos inteligentes. Apertura, 10(2), 80-93.
+* López-Ornelas, M. et al. (2022). ΕΙ diseño instruccional y los recursos tecnológicos en el mejoramiento de las competencias digitales de los docentes. Apertura, 14(2), 40-61.
+* Guisasola, J., Ametller, J., & Zuza, K. (2021). Investigación basada en el diseño de Secuencias de Enseñanza-Aprendizaje. Revista Eureka sobre Enseñanza y Divulgación de las Ciencias, 18(1), 1801.
+* Jiménez-Toledo, J. A., Collazos, C., & Revelo-Sánchez, O. (2019). Consideraciones en los procesos de enseñanza-aprendizaje para un primer curso de programación de computadores: una revisión sistemática. Tecnológicas, 22, 83-117.
+* Escobar-Reynel, J. L. et al. (2021). Modelo de desarrollo para la construcción de aplicaciones móviles educativas. Tecnológicas, 24.
+* Mendoza, L. et al. (2023). Metodología para la Evaluación del Software Educativo: Una Visión. Revista Scientific, 8(27), 62-80.
+* Aguilar Juárez, I. et al. (2023). La enseñanza de la programación mediante software educativo especializado y los agentes conversacionales. Interfases, (17).
+* Sánchez, R. et al. (2023). Un Software Educativo utilizando el Aprendizaje Basado en Problemas con Realidad Aumentada. Revista Iberoamericana de Tecnología en Educación y Educación en Tecnología (TE&ET), (34), e5.
